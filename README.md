@@ -11,7 +11,7 @@
 ##### How to run:
 * Run `pip3 install -r requirements.txt` to install dependencies.
 * Run `python main.py --restore=./checkpoint/model_double_80000.pth` to test the pretrained model.
-* Run `python dqn.py --train=True --type='dqn'` to train the model from the beginning. You can also increase FPS in game/flappy_bird.py script for faster training.
+* Run `python main.py --train=True --type=dqn` to train the model from the beginning. You can also increase FPS in game/flappy_bird.py script for faster training.
 
 ##### Flags:
 * `--restore`: load pretrained weight to restore training or test.
